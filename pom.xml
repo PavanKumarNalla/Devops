@@ -14,7 +14,7 @@
         <docker.image.prefix>kammana</docker.image.prefix>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-        <sonar.version>4.0.0.4184</sonar.version> <!-- Updated SonarQube plugin version -->
+        <sonar.version>3.9.2.0</sonar.version> <!-- Updated SonarQube plugin version -->
     </properties>
 
     <dependencies>
@@ -23,7 +23,7 @@
             <artifactId>bedrock-runtime-maven</artifactId>
             <version>5.1.2</version>
         </dependency>
-        
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -37,7 +37,7 @@
             <id>nexusRepo</id>
             <url>http://13.233.230.166:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
-        
+
         <repository>
             <id>nexusRepo</id>
             <url>http://13.233.230.166:8081/repository/maven-releases/</url>
